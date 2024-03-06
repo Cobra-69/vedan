@@ -1,0 +1,15 @@
+let tag = 'span';
+
+let obj = {
+    a:()=>console.log
+    ('this is a tag'),
+    div: ()=> console.log
+    ('this is div tag'),
+    p: ()=> console.log
+    ('this is p tag'),
+    span: ()=> console.log
+    ('this is span tag'),
+    
+};
+
+obj[tag]();
